@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven_PipeLine</artifactId>
-  <version>1.0.1-RELEASE</version>
+  <version>1.0.1.P-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
