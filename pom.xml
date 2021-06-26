@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>1.0.1.-RELEASE</version>
+  <version>1.0.2-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -17,10 +17,17 @@
   
   <distributionManagement>
          <repository>
-         <id>internal.repo</id>
-         <name>Internal repo</name>
-         <url>file:///var/lib/jenkins/myartifacts/</url>
+         <id>releases</id>
+         <name>release(PROD) repo</name>
+         <url>http://54.234.65.68:8081/repository/maven-releases/</url>
        </repository>
+    
+         <repository>
+         <id>snapshots</id>
+         <name>snapshot(UAT) repo</name>
+         <url>http://54.234.65.68:8081/repository/maven-snapshots/</url>
+       </repository>
+    
 </distributionManagement>
   
 
