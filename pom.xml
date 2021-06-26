@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.test</groupId>
-  <artifactId>HelloWorldMaven_PipeLine</artifactId>
-  <version>1.0.1.P-RELEASE</version>
+  <artifactId>HelloWorldMaven</artifactId>
+  <version>1.0.1.-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
